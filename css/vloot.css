@@ -1,9 +1,11 @@
+
 *{
   padding: 0;
   margin: 0;
 }
 Body{background-image: url("grfx/bg.png");
   background-repeat: repeat-x;
+  font-family:sans-serif;
 
 }
 
@@ -18,7 +20,7 @@ margin: 0 auto;
 .text{
   background-color:white;
   margin: 0 auto;
-  width: 50%;
+  width: 740px;
   height: 477px;
   text-align: justify;
   padding-left:10px;
@@ -30,7 +32,7 @@ nav li:hover{
   height:15px
 }
 nav li{
-  margin-top: 180px;
+  margin-top: 160px;
   display:inline-block;
   padding-left: 5px;
   padding-right: 5px;
@@ -46,7 +48,7 @@ img{
   float: right;
   padding:10px
   padding: 15px;
-  padding-left: 15px;
+  padding-left:15px;
   padding-bottom: 10px
 
 }
@@ -54,13 +56,16 @@ a{
   color:white;
   text-decoration:none;
 }
-<p>
-font-family{
-  font-family: arial sans-serif;
-}
+
 h1{
   padding: 10px
 }
 h2{
   padding: 10px
+}
+.top-menu{
+  padding-left:20px;
+}
+.lead{
+padding-left:10px;
 }
